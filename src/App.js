@@ -161,7 +161,7 @@ function App() {
     if (words8.test(document.querySelector("#input").value)) {
       getBotMessage.innerText = "Typing...";
       setTimeout(() => {
-        getBotMessage.innerText = "My name is Bot";
+        getBotMessage.innerText = "My name is Bot created by Benny";
         inputRef.value = ""; // clear the input
       }, 2000);
     }
@@ -173,20 +173,20 @@ function App() {
     if (words9.test(document.querySelector("#input").value)) {
       getBotMessage.innerText = "Typing...";
       setTimeout(() => {
-        getBotMessage.innerText = "The owner of this bot is Treasure";
+        getBotMessage.innerText = "The owner of this bot is Benny";
         inputRef.value = ""; // clear the input
       }, 2000);
     }
 
     let owner2 = [
-      "Who's Treasure|who's Treasure|Who is Treasure|who is Treasure",
+      "Who's Benny|who's Benny|Who is Benny|who is Benny",
     ];
     let words10 = new RegExp(owner2);
     if (words10.test(document.querySelector("#input").value)) {
       getBotMessage.innerText = "Typing...";
       setTimeout(() => {
         getBotMessage.innerText =
-          "Treasure is a programmer based on ReactJS and NodeJS he is the owner of a youtube channel called Creative Tutorials";
+          "Benny is a programmer based on ReactJS and NodeJS";
         inputRef.value = ""; // clear the input
       }, 2000);
     }
